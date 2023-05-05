@@ -13,6 +13,14 @@ public class Management {
 			ManagementWorks.logIn();
 			break;
 		}
+		case 2: {
+			ManagementWorks.signUp();
+			break;
+		}
+		default: {
+			System.out.println("Please enter correct option");
+			break;
+		}
 		}
 	}
 
