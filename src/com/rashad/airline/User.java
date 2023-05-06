@@ -1,4 +1,4 @@
-package main;
+package com.rashad.airline;
 
 public class User {
 

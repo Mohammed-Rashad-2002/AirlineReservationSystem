@@ -1,4 +1,4 @@
-package main;
+package com.rashad.airline;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
