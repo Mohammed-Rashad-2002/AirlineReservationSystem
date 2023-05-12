@@ -116,6 +116,7 @@ public class ManagementWorks {
 			} else {
 				System.out.println("You don't have any upcoming flight");
 			}
+			System.out.println("Thanks For visited Airline By Rashad");
 
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
@@ -151,7 +152,7 @@ public class ManagementWorks {
 				if (sc.nextInt() == 1) {
 					upComingFlightsDetails(email);
 				} else {
-
+					System.out.println("Thanks For visited Airline By Rashad");
 				}
 
 			}
@@ -166,7 +167,7 @@ public class ManagementWorks {
 	public static void signUp() {
 		System.out.println("----------------SignUp---------------------");
 		System.out.println("Enter Your Name:");
-		String name = sc.nextLine();
+		String name = sc.next();
 		System.out.println("Enter Your Email Id:");
 		String email = sc.next();
 		System.out.println("Enter Your Password:");
